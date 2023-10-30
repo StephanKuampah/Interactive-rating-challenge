@@ -1,0 +1,31 @@
+.container{
+    width: 700px;
+    height:400px;
+    background-color: rgb(212, 12, 12);
+    padding:10%;
+    margin:auto;
+}
+.box1{
+    width: 350px;
+    height:350px;
+    background-color: rgb(168, 160, 160);
+    margin:auto;
+}
+.box{
+    width:100px;
+    height: 30px;
+    border:none;
+    background-color: rgb(245, 12, 12);
+}
+.circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(196, 196, 0)
+}
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 68, 0);
+    border-radius: 20px;
+}
