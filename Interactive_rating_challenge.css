@@ -108,6 +108,10 @@
     box-shadow: inset 0px 0px 0px 0px hsl(25, 97%, 53%);
     transition: 0s;
 }
+.circle:active{
+    background-color: red;
+    color:white
+}
 .circle:hover{
     box-shadow: inset 38px 0px 0px 0px hsl(25, 97%, 53%);
     transition: 0s;

@@ -9,7 +9,7 @@ const submit_button = document.getElementById("submit_button");
 
 
 function select_button(e){
-    console.log(e)
+    console.log(e.target.innerHTML)
 }
 
 rate_button1.addEventListener("click",select_button);
@@ -17,4 +17,4 @@ rate_button2.addEventListener("click",select_button);
 rate_button3.addEventListener("click",select_button);
 rate_button4.addEventListener("click",select_button);
 rate_button5.addEventListener("click",select_button);
-submit_button.addEventListener("click",select_button);
+// submit_button.addEventListener("click");
