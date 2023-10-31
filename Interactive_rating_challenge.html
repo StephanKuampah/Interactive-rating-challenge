@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="box1">
-            <div class="circle">
+            <div class="circle1">
                 <div id=img><img
                  src=file:///C:/Users/kuamp/Desktop/Skt%20projects/interactive-rating-component-main/images/icon-star.svg ;
                  align:"center"
@@ -27,20 +27,20 @@
                 <div>improve our offering!</div>
             </div>
             <div class="box2">
-                <button class="circle">1</button>
-                <button class="circle">2</button>
-                <button class="circle">3</button>
-                <button class="circle">4</button>
-                <button class="circle">5</button>
+                <button class="circle" id="b1">1</button>
+                <button class="circle" id="b2">2</button>
+                <button class="circle" id="b3">3</button>
+                <button class="circle" id="b4">4</button>
+                <button class="circle" id="b5">5</button>
             </div>
-            <button id="button" style="color:white">SUBMIT</button>
+            <button id="submit_button">SUBMIT</button>
         </div>
         <div class="box3">
             <div id=img2><img
                 src=file:///C:/Users/kuamp/Desktop/Skt%20projects/interactive-rating-component-main/images/illustration-thank-you.svg ;
                 align:"center"
             ></div>
-            <div class="box4" style="color:  hsl(25, 97%, 53%)">You selected out of 5</div>
+            <div class="box4" style="color:  hsl(25, 97%, 53%)">You selected <span id=rate ></span>out of 5</div>
             <div>
                 <div id="text3" style="color:white"><strong>Thank you!</strong></div>
             </div>
@@ -51,5 +51,6 @@
             </div>
         </div>
     </div>
+<script src="Interactive_rating_challenge.js"></script>
 </body>
 </html>
