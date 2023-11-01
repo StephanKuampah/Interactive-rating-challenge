@@ -6,7 +6,7 @@ const rate_button5 = document.getElementById("b5");
 const submit_button = document.getElementById("submit_button");
 const thank_you_section = document.querySelector("#box3")
 //const rate = document.getElementById("rate")
-const rating_section = document.querySelectorAll("#box1")
+const rating_section = document.querySelector("#box1")
 
 
 
@@ -15,11 +15,9 @@ function select_button(e){
     console.log(e.target.innerHTML)
 }
 function showorhide(a){
-    if(display= "flex"){
     thank_you_section.style.display = "flex";
-    }
-
-}
+    rating_section.style.display = "none"
+ }
 
 rate_button1.addEventListener("click",select_button);
 rate_button2.addEventListener("click",select_button);
@@ -27,6 +25,3 @@ rate_button3.addEventListener("click",select_button);
 rate_button4.addEventListener("click",select_button);
 rate_button5.addEventListener("click",select_button);
 submit_button.addEventListener("click",showorhide);
-
-
-
