@@ -1,6 +1,6 @@
 .container{
-    width: 700px;
-    height:400px;
+    width: 1265px;
+    height:480px;
     background-color: hsl(216, 12%, 8%);
     padding:8%;
     margin:auto;
@@ -17,7 +17,6 @@
     align-content: center;
     text-align: center;
     border-radius: 20px;
-    display:flex
 }
 #box3{
     width: 330px;
@@ -73,10 +72,6 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.checked{
-    background-color:hsl(25, 97%, 53%) !important;
-    color: white !important
 }
 .circle1{
     border-radius: 50%;
@@ -145,8 +140,29 @@
     border:0;
     color: white;
 }
+#rate_again_button{
+    width: 275px;
+    height: 40px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    line-height: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    border-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 0px white;
+    transition: 0s;
+    border:0;
+    color: white;
+}
 #submit_button:hover{
     box-shadow: inset 275px 0px 0px 0px white;
     transition: 0s;
     color: hsl(25, 97%, 53%);
 }
+#rate_again_button:hover{
+    box-shadow: inset 275px 0px 0px 0px white;
+    transition: 0s;
+    color: hsl(25, 97%, 53%);
+}
+
