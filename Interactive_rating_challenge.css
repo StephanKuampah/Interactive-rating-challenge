@@ -5,7 +5,7 @@
     padding:8%;
     margin:auto;
 }
-.box1{
+#box1{
     width: 330px;
     height:340px;
     background-color: hsl(213, 19%, 18%);
@@ -17,8 +17,9 @@
     align-content: center;
     text-align: center;
     border-radius: 20px;
+    display:flex
 }
-.box3{
+#box3{
     width: 330px;
     height:340px;
     background-color: hsl(213, 19%, 18%);
@@ -108,9 +109,9 @@
     box-shadow: inset 0px 0px 0px 0px hsl(25, 97%, 53%);
     transition: 0s;
 }
-.circle:active{
-    background-color: red;
-    color:white
+.circle:focus{
+    background: lightgrey;
+    color:white;
 }
 .circle:hover{
     box-shadow: inset 38px 0px 0px 0px hsl(25, 97%, 53%);
